@@ -1,0 +1,38 @@
+.spinner-advanced {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.spinner-advanced div {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 8px solid transparent;
+    border-radius: 50%;
+    animation: spin-gear 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+.spinner-advanced div:nth-child(1) {
+    border-color: #22c55e transparent transparent transparent;
+    animation-delay: -0.45s;
+}
+
+.spinner-advanced div:nth-child(2) {
+    border-color: #e74c3c transparent transparent transparent;
+    animation-delay: -0.3s;
+}
+
+.spinner-advanced div:nth-child(3) {
+    border-color: #f1c40f transparent transparent transparent;
+    animation-delay: -0.15s;
+}
+
+@keyframes spin-gear {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
