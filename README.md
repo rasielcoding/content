@@ -24,6 +24,11 @@
 
 ## 12 - Table Advanced - HTML & CSS [✅]
 
+## 13 - Form Basic - HTML & CSS [✅]
+
+## 14 - Form Advanced - HTML & CSS [❌]
+
+## 15 - Form Advanced - HTML & CSS [❌]
 
 ## How to Use
 1. Clone the repository:
