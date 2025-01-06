@@ -1,0 +1,64 @@
+/* General Styles */
+.table-container {
+    width: 50%;
+    margin: 20px 10px;
+    overflow-x: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.table thead {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(90deg, #4caf50, #2e7d32);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.table th, .table td {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.table tr:hover {
+    background-color: #4caf50;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.table td:last-child {
+    text-align: center;
+}
+
+/* Button Style */
+.btn-action {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f59e0b;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-action:hover {
+    background-color: #d97706;
+    transform: scale(1.1);
+}

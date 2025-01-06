@@ -22,7 +22,7 @@
 
 ## 11 - Table Intermediate - HTML & CSS [✅]
 
-## 12 - Table Advanced - HTML & CSS [❌]
+## 12 - Table Advanced - HTML & CSS [✅]
 
 
 ## How to Use
