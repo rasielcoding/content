@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Advanced Form HTML & CSS</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Advanced Form</h2>
+        <form action="#" enctype="multipart/form-data">
+            <!-- Personal Information Section -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="birthday">Birthday</label>
+                    <input type="date" id="birthday" name="birthday" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone" pattern="[0-9]{10}"
+                        required>
+                </div>
+            </fieldset>
+
+            <!-- Preferences Section -->
+            <fieldset>
+                <legend>Preferences</legend>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender" required>
+                        <option value="" disabled selected>Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="preferences">Preferred Contact Method</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="contact-email" name="contact-method" value="email">
+                        <label for="contact-email">Email</label>
+                        <input type="checkbox" id="contact-phone" name="contact-method" value="phone">
+                        <label for="contact-phone">Phone</label>
+                        <input type="checkbox" id="contact-none" name="contact-method" value="none">
+                        <label for="contact-none">No Contact</label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- Additional Section -->
+            <fieldset>
+                <legend>Additonal Information</legend>
+                <div class="form-group">
+                    <label for="resumen">Upload Resumen</label>
+                    <input type="file" id="resumen" name="resumen"
+                    accept=".pdf,.docx,.doc">
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Comments</label>
+                    <textarea name="message" id="message" rows="4"
+                    placeholder="Write your comments"></textarea>
+                </div>
+            </fieldset>
+
+            <!-- Terms and Submit -->
+            <div class="form-group terms">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I gree to the <a href="#">terms and
+                     conditions
+                </a></label>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
