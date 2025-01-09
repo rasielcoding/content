@@ -38,7 +38,7 @@
 
 ## 19 - Badge Basic - HTML & CSS [✅]
 
-## 20 - Badge Intermediate - HTML & CSS [❌]
+## 20 - Badge Intermediate - HTML & CSS [✅]
 
 ## 21 - Badge Advanced - HTML & CSS [❌]
 
