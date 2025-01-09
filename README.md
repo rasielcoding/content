@@ -36,7 +36,13 @@
 
 ## 18 - List Style Advanced - HTML & CSS [✅]
 
-## 19 - ? - HTML & CSS [❌]
+## 19 - Badge Basic - HTML & CSS [✅]
+
+## 20 - Badge Intermediate - HTML & CSS [❌]
+
+## 21 - Badge Advanced - HTML & CSS [❌]
+
+
 
 ## How to Use
 1. Clone the repository:
