@@ -36,11 +36,11 @@
 
 ## 18 - List Style Advanced - HTML & CSS [✅]
 
-## 19 - Badge Basic - HTML & CSS [✅]
+## 21 - Alert Bootstrap [❌]
 
-## 20 - Badge Intermediate - HTML & CSS [✅]
+## 20 - Badge Bootstrap [❌]
 
-## 21 - Badge Advanced - HTML & CSS [❌]
+## 21 - Button Bootstrap [❌]
 
 
 
